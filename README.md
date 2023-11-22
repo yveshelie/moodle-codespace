@@ -25,7 +25,7 @@ Get started
 
 Changelog
 ---------------
-See **Git** for the complete history, major changes will be listed below
+See **Git** for the complete history.
 
 ## License
 
