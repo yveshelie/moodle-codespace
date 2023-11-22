@@ -12,15 +12,16 @@ Get started
 2. Create a codespace of the forked repository.
 3. Use AI like ChatGPT to generate shell script to build a simple moodle plugin builder like `plugin_builder.sh` example.
 4. Run the plugin builder.
-5. Set Up a forwarding port In our case we are using `PORT 8080`.
-6. Open the browser from the codespace.
-7. If you got the permission issue run this command below on codespace terminal and re-run again.
+5. Add the volume to docker-composer.yml.
+6. Set Up a forwarding port In our case we are using `PORT 8080`.
+7. Open the browser from the codespace.
+8. If you got the permission issue run this command below on codespace terminal and re-run again.
     ```shell
 
     sh .devcontainer/scripts/fixmoodleowner.sh
 
     ```
-8. Start your plugin development.
+9. Start your plugin development.
 
 
 Changelog
