@@ -21,10 +21,6 @@ touch version.php
 touch block_${block_name}.php
 mkdir -p lang/en
 touch lang/en/block_${block_name}.php
-mkdir -p db
-touch db/install.xml
-touch db/upgrade.php
-touch db/access.php
 
 # Populate version.php
 cat <<EOL > version.php
@@ -64,20 +60,6 @@ cat <<EOL > lang/en/block_${block_name}.php
 <?php
 
 \$string['pluginname'] = '${block_name} block';
-EOL
-
-# Populate db/install.xml
-cat <<EOL > db/install.xml
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<install version="2023112200" xmlns="http://moodle.org/xmlns/install">
-    <plugins>
-        <block>
-            <code>\${block_name}</code>
-            <version>2023112200</version>
-        </block>
-    </plugins>
-</install>
 EOL
 
 # Display success message
