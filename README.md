@@ -38,5 +38,6 @@ Contributions are welcome and will be fully credited. We accept contributions vi
 ##### Author:
 
 * Hamza Tamyachte :: [Ldesign Media](https://ldesignmedia.nl/) -  [hamza.tamyachte@ldesignmedia.nl](hamza.tamyachte@ldesignmedia.nl)
+* Luuk Verhoeven :: [Ldesign Media](https://ldesignmedia.nl/) - [luuk@ldesignmedia.nl](luuk@ldesignmedia.nl)
 
 <img src="https://ldesignmedia.nl/themes/ldesignmedia/assets/images/logo/logo.svg" alt="ldesignmedia" height="70px">
