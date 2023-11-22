@@ -8,7 +8,7 @@ Moodle development environment for github code spaces.
 Features:
 ---------------
 
-* Implement multiple plugins in the same workspace.
+* 
 
 Get started
 ---------------
