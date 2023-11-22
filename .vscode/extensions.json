@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode-remote.remote-containers",
+        "editorconfig.editorconfig",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-debug",
+        "wongjn.php-sniffer",
+        "ms-azuretools.vscode-docker",
+    ],
+    "unwantedRecommendations": []
+}
