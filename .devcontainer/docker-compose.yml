@@ -41,6 +41,6 @@ services:
       - './moodle/config.php:/var/www/html/config.php'
       - './container-volumes/moodledata_data:/var/www/moodledata'
       - './container-volumes/phpunitdata_data:/var/www/phpunitdata'
-      - '../block_myblock:/var/www/html/blocks/myblock'
+      - '../block_myblockexample:/var/www/html/blocks/block_myblockexample'
     depends_on:
       - db
