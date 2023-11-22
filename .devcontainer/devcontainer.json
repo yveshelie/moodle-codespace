@@ -2,7 +2,6 @@
     "name": "moodle",
     "dockerComposeFile": "docker-compose.yml",
     "service": "moodle",
-    "workspaceFolder": "/var/www/html/workspace",
     "postCreateCommand": "sh scripts/fixmoodleowner.sh",
     "customizations": {
         "vscode": {
