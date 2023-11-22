@@ -42,7 +42,6 @@ services:
       - './container-volumes/moodledata_data:/var/www/moodledata'
       - './container-volumes/phpunitdata_data:/var/www/phpunitdata'
       - '../workspace:/var/www/html/workspace:cached'
-      - '../workspace/local_sample:/var/www/html/local/sample'
-      - '../workspace/block_sample:/var/www/html/blocks/sample'
+      - '../workspace/block_myblock:/var/www/html/blocks/myblock'
     depends_on:
       - db
