@@ -6,7 +6,6 @@
     "postCreateCommand": "bash scripts/fixmoodleowner.sh",
     "extensions": [
         "editorconfig.editorconfig",
-        "wongjn.php-sniffer",
         "bmewburn.vscode-intelephense-client",
         "felixfbecker.php-debug",
         "ms-azuretools.vscode-docker",
