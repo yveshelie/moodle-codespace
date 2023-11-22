@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<install version="2023112200" xmlns="http://moodle.org/xmlns/install">
+    <plugins>
+        <block>
+            <code>${block_name}</code>
+            <version>2023112200</version>
+        </block>
+    </plugins>
+</install>

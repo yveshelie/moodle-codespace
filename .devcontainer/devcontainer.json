@@ -1,0 +1,16 @@
+{
+    "name": "moodle",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "moodle",
+    "workspaceFolder": "/var/www/html/workspace",
+    "postCreateCommand": "bash scripts/fixmoodleowner.sh",
+    "extensions": [
+        "editorconfig.editorconfig",
+        "wongjn.php-sniffer",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-debug",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+    ],
+    "settings": [],
+}
