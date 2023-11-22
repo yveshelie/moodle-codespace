@@ -1,8 +1,8 @@
 <?php
 
-class block_myblock extends block_base {
+class block_myblockexample extends block_base {
     public function init() {
-        $this->title = get_string('pluginname', 'block_myblock');
+        $this->title = get_string('pluginname', 'block_myblockexample');
     }
 
     public function get_content() {

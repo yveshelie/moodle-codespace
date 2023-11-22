@@ -10,7 +10,7 @@ fi
 block_name=$1
 
 # Set the Moodle directory
-moodle_dir="workspace"
+moodle_dir="."
 
 # Set the plugin directory
 plugin_dir="${moodle_dir}/block_${block_name}"
