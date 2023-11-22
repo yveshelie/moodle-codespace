@@ -2,7 +2,7 @@
     "name": "moodle",
     "dockerComposeFile": "docker-compose.yml",
     "service": "moodle",
-    "postCreateCommand": "sh scripts/fixmoodleowner.sh",
+    "postCreateCommand": "sh .devcontainer/scripts/fixmoodleowner.sh",
     "customizations": {
         "vscode": {
             "extensions": [
