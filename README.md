@@ -5,11 +5,6 @@ Description
 
 Moodle development environment for github code spaces.
 
-Features:
----------------
-
-*
-
 Get started
 ---------------
 
@@ -17,19 +12,24 @@ Get started
 2. Create a codespace of the forked repository.
 3. Use AI like ChatGPT to generate shell script to build a simple moodle plugin builder like `plugin_builder.sh` example.
 4. Run the plugin builder.
+5. Set Up a forwarding port In our case we are using `PORT 8080`.
+6. Open the browser from the codespace.
+7. If you got the permission issue run this command below on codespace terminal and re-run again.
+    ```shell
 
-TODO
----------------
-* Improve the documentation.
+    sh .devcontainer/scripts/fixmoodleowner.sh
+
+    ```
+8. Start your plugin development.
+
 
 Changelog
 ---------------
 See **Git** for the complete history, major changes will be listed below
 
-
 ## License
 
-The GNU GENERAL PUBLIC LICENSE. Please see [License File](LICENSE) for more information.
+The GNU GENERAL PUBLIC LICENSE.
 
 ## Contributing
 
