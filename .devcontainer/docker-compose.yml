@@ -19,6 +19,8 @@ services:
       MARIADB_DATABASE: moodle
       MARIADB_USER: moodle
       MARIADB_PASSWORD: password
+    volumes:
+      - persistent:/var/lib/mysql
   moodle:
     build:
       context: ./moodle
@@ -44,3 +46,5 @@ services:
       - '../block_myblockexample:/var/www/html/blocks/myblockexample'
     depends_on:
       - db
+volumes:
+  persistent:
