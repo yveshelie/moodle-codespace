@@ -3,10 +3,17 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "moodle",
     "workspaceFolder": "/var/www/html/workspace",
-    "extensions": [
-        "editorconfig.editorconfig",
-        "ms-azuretools.vscode-docker",
-        "dbaeumer.vscode-eslint",
-    ],
-    "settings": [],
+    "postCreateCommand": "sh scripts/fixmoodleowner.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "editorconfig.editorconfig",
+                "wongjn.php-sniffer",
+                "bmewburn.vscode-intelephense-client",
+                "felixfbecker.php-debug",
+                "ms-azuretools.vscode-docker",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
 }
