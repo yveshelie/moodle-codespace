@@ -1,4 +1,4 @@
-# Ldesignmedia - moodle-codespace
+# Ldesign Media - moodle-codespace
 
 Description
 ---------------
