@@ -44,6 +44,7 @@ services:
       - './container-volumes/moodledata_data:/var/www/moodledata'
       - './container-volumes/phpunitdata_data:/var/www/phpunitdata'
       - '../block_myblockexample:/var/www/html/blocks/myblockexample'
+      - '../block_ldesign:/var/www/html/blocks/ldesign'
     depends_on:
       - db
 volumes:

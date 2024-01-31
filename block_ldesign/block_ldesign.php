@@ -1,8 +1,8 @@
 <?php
 
-class block_myblockexample extends block_base {
+class block_ldesign extends block_base {
     public function init() {
-        $this->title = get_string('pluginname', 'block_myblockexample');
+        $this->title = get_string('pluginname', 'block_ldesign');
     }
 
     public function get_content() {
@@ -10,12 +10,8 @@ class block_myblockexample extends block_base {
             return $this->content;
         }
 
-        global $DB;
-        $usercount = $DB->count_records('user', array('deleted' => 0));
-
-
         $this->content = new stdClass();
-        $this->content->text = 'Test' . $usercount;
+        $this->content->text = 'The content of your block goes here.';
         $this->content->footer = 'Footer text here';
 
         return $this->content;
