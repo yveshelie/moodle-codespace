@@ -25,7 +25,7 @@ services:
     build:
       context: ./moodle
       args:
-        - MOODLE_VERSION=v4.3.0
+        - MOODLE_VERSION=v5.0
     environment:
       - MOODLE_DBTYPE=mariadb
       - MOODLE_DBHOST=db
